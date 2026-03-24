@@ -6,13 +6,13 @@
 $a = 10;
 $b = 20;
 
-// Equal (==): Returns true if the two values are equal.
+// Equal (==): Returns true if the two values are equal. and focus on value not type
 echo "Equal: " . ($a == $b ? "true" : "false") . "<br>";
 
 // Not equal (!=): Returns true if the two values are not equal.
 echo "Not equal: " . ($a != $b ? "true" : "false") . "<br>";
 
-// Strictly equal (===): Returns true if the two values are equal and have the same type.
+// Strictly equal (===): Returns true if the two values are equal and have the same type. focus on value and type
 echo "Strictly equal: " . ($a === $b ? "true" : "false") . "<br>";
 
 // Strictly not equal (!==): Returns true if the two values are not equal or do not have the same type.
